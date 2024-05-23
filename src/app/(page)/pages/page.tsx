@@ -1,5 +1,4 @@
-
-import RenderDataComponent from "@/app/components/RenderDataComponent";
+import RenderDataComponent from "@/components/RenderDataComponent";
 import { pages } from "../../../entities/pages";
 
 function Pages() {

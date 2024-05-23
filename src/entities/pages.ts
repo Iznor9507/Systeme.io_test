@@ -3,7 +3,8 @@ import { DataProps } from "@/lib/interfaces/data.interface";
 export const pages: DataProps[] = [
   {
     id: 23634610,
-    title: "aliquip sit proident veniam tempor dolor pariatur et ipsum fugiat aliquip sit proident veniam tempor dolor pariatur et ipsum fugiat",
+    title:
+      "aliquip sit proident veniam tempor dolor pariatur et ipsum fugiat aliquip sit proident veniam tempor dolor pariatur et ipsum fugiat",
     active: false,
     updatedAt: "1948-04-09T10:15:44.0Z",
     publishedAt: "1956-09-25T20:13:19.0Z",

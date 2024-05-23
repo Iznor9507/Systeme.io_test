@@ -36,7 +36,10 @@ const EditModal = ({ item, onSave, onClose }: EditModalProps) => {
       <div className="bg-white sc:w-11/12 sm:w-5/6 tablet:w-4/6 desktop:w-3/6 p-6 rounded shadow-lg z-50">
         <h2 className="text-2xl font-bold mb-4 text-center">Edit Item</h2>
         <form>
+          {/*  Object.entries возвращает массив пар [ключ, значение] для каждого элемента item.
+           Метод map проходит по каждой паре, извлекая key (ключ свойства).*/}
           {Object.entries(item).map(([key]) =>
+            // Проверка на то, является ли key title, description и тд
             key === "title" ||
             key === "description" ||
             key === "name" ||

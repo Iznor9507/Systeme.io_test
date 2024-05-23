@@ -1,4 +1,4 @@
-import RenderDataComponent from "@/app/components/RenderDataComponent";
+import RenderDataComponent from "@/components/RenderDataComponent";
 import { pricePlans } from "../../../entities/pricePlans";
 
 function PricePlans() {
